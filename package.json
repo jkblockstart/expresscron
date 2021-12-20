@@ -1,0 +1,24 @@
+{
+  "name": "expresscron",
+  "version": "1.0.0",
+  "description": "Cron sync route, express app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkblockstart/expresscron.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jkblockstart/expresscron/issues"
+  },
+  "homepage": "https://github.com/jkblockstart/expresscron#readme",
+  "dependencies": {
+    "config": "^3.3.6",
+    "express": "^4.17.2",
+    "web3": "^1.6.1"
+  }
+}
