@@ -24,6 +24,8 @@ app.use((req, res, next) => {
 })
 
 app.get('/run/cron', async (req, res) => {
+    const TOKEN = '2077914846:AAFxxsTHz6zPwI0GVfVfh625OdcgSwL6iC4'
+    const TELEGRAM_API = `https://api.telegram.org/bot${TOKEN}`
     const daiContract = new web3.eth.Contract(storeabi.abi, daiAddress)
 
     const usdcContract = new web3.eth.Contract(storeabi.abi, usdcAddress)
